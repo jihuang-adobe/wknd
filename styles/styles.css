@@ -339,3 +339,7 @@ main .section[data-section-status='initialized'] {
 .cc-btn.cc-save {
   padding: 13px 29px;
 }
+
+.orange-background {
+  background-color #DF7D1C
+}
