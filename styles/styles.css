@@ -343,3 +343,36 @@ main .section[data-section-status='initialized'] {
 .orange-background {
   background-color: #DF7D1C
 }
+
+/** custom **/
+.dell .carousel-wrapper {
+  background-color: rgb(245, 246, 247);
+  padding: 30px 0px;
+}
+
+.dell .columns-wrapper {
+  margin-top: 20px;
+}
+
+.dell .columns-wrapper .columns > div {
+  align-items: baseline;
+}
+
+.dell .columns-wrapper .columns p {
+  line-height: normal;
+}
+
+.dell .columns-wrapper .columns > div > div {
+  margin: 0px 30px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+}
+
+.dell .columns-wrapper .columns > div > div:first-of-type {
+  margin-left: 30px;
+}
+
+.dell .columns-wrapper .columns > div > div:not(:first-of-type) .button-container .button.primary {
+  background-color: transparent;
+  border: 1px solid;
+}
