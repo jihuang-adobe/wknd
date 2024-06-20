@@ -38,6 +38,10 @@ main .carousel > div {
   flex-direction: column;
 }
 
+main .carousel div.carousel-image {
+  width: 100%;
+}
+
 main .carousel div.carousel-text {
   max-width: 1200px;
   margin: 0 auto;
