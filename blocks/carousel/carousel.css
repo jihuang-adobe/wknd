@@ -12,7 +12,6 @@ main .carousel {
 }
 
 main .carousel picture {
-  position: absolute;
   z-index: -1;
   top: 0;
   left: 0;
@@ -34,8 +33,9 @@ main .carousel > div {
   scroll-snap-align: start;
   position: relative;
   min-height: 580px;
-  align-items: flex-end;
+  align-items: center;
   display: flex;
+  flex-direction: column;
 }
 
 main .carousel div.carousel-text {
@@ -44,6 +44,8 @@ main .carousel div.carousel-text {
   background-color: white;
   min-height: 188px;
   padding: 0 28px;
+  position: absolute;
+  bottom: 0;
 }
 
 main .carousel div.carousel-text p {
