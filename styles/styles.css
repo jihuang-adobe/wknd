@@ -345,6 +345,10 @@ main .section[data-section-status='initialized'] {
 }
 
 /** custom **/
+.activity-details-container {
+  display: flex;
+}
+
 .dell .carousel-wrapper {
   background-color: rgb(245, 246, 247);
   padding: 30px 0px;
