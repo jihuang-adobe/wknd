@@ -1,0 +1,20 @@
+{
+  "blockName": [
+    {
+      "mimeType": "video/*",
+      "value": "Video"
+    }
+  ],
+  "blockTemplate": [
+    {
+      "mimeType": "video/*",
+      "value": "<img src=\"${posterUrl}\" alt=\"${videoUrl}\" />"
+    }
+  ],
+  "copyMode": [
+    {
+      "mimeType": "image/*",
+      "value": "use-alt-text"
+    }
+  ] 
+}
