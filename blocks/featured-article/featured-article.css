@@ -9,6 +9,15 @@
     margin-bottom: 1em;
 }
 
+.featured-article.left-image {
+    flex-direction: row;
+}
+
+.featured-article.overlay-text {
+    flex-direction: column;
+    position: relative;
+}
+
 .featured-article .image {
     display: flex;
     -webkit-box-orient: vertical;
@@ -36,6 +45,12 @@
     flex: 1;
     background-color: #ebebeb;
     padding: 3.5em 2em 2em;
+}
+
+.featured-article.overlay-text .text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
 }
 
 .featured-article .text p {
