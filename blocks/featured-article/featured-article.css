@@ -9,10 +9,12 @@
     margin-bottom: 1em;
 }
 
+.section.left-image .featured-article,
 .featured-article.left-image {
     flex-direction: row;
 }
 
+.section.overlay-text .featured-article,
 .featured-article.overlay-text {
     flex-direction: column;
     position: relative;
@@ -46,7 +48,7 @@
     background-color: #ebebeb;
     padding: 3.5em 2em 2em;
 }
-
+.section.overlay-text .featured-article .text,
 .featured-article.overlay-text .text {
     position: absolute;
     bottom: 0;
